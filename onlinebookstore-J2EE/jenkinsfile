@@ -14,7 +14,9 @@ sh'''
 
 }
  stage(build){
+ step{
  sh 'mvn clean package'
  }
+}
 }
 }
